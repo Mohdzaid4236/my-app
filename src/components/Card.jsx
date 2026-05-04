@@ -24,7 +24,7 @@ function Card({ title, description, icon, className = '' }) {
           <span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#9DC183]/85" />
         </span>
       </h3>
-      <p className="relative z-10 text-base leading-7 text-[#F5F5F5]/90">{description}</p>
+      <p className="relative z-10 text-base leading-7 text-[#F5F5F5]/70">{description}</p>
     </motion.article>
   )
 }
